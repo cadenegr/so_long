@@ -6,7 +6,7 @@
 /*   By: cadenegr <neo_dgri@hotmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/28 16:35:39 by cadenegr          #+#    #+#             */
-/*   Updated: 2024/02/29 16:51:15 by cadenegr         ###   ########.fr       */
+/*   Updated: 2024/02/29 18:17:29 by cadenegr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ bool	valid_map(int argc, char *file, t_game *g)
 		return (error(7));
 	if (!valid_path(g, g->coordi.p_x, g->coordi.p_y))
 		return (error(8));
-	start_img(g);
 	ft_printf(">>Exit function valid_map.\n");
 	return (1);
 }
