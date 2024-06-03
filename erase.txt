@@ -1,0 +1,36 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    erase.txt                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: cadenegr <neo_dgri@hotmail.com>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/02/28 20:02:23 by cadenegr          #+#    #+#              #
+#    Updated: 2024/02/29 16:53:31 by cadenegr         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+// bool	check_last_line(char *line, t_game *g)
+// {
+// 	int	i;
+
+// 	ft_printf(">>Enter check_last_line\n");
+// 	ft_printf(">>Printing the value width: %d\n", g->width);
+// 	i = 0;
+// 	while (i < g->width)
+// 	{
+// 		ft_printf(">>Printing the value of the while loop: %c\n", line[i]);
+// 		if (line[i] != '1')
+// 			return (0);
+// 		i++;
+// 	}
+// 	if (g->p != 1 && g->e != 1)
+// 		return (error(5));
+// 	if (g->c > 0)
+// 		return (error(6));
+// 	ft_printf(">>Exit check_last_line\n");
+// 	return (1);
+// }
+
+	ft_printf(">>player: %d, ext: %d coll: %d\n", g.p, g.e, g.c);
+	ft_printf(">>player x: %d, player y: %d\n", g.coordi.p_x, g.coordi.p_y);
